@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest 
     env:
       location: '16.802934, 96.180069'
-      language: en
+      lang: en
       units: us
       exclude: 'minutely, hourly, daily, alerts, flags'
       dark_sky_secret: ${{ secrets.dark_sky }}
