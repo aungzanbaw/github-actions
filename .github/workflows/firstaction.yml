@@ -22,7 +22,6 @@ jobs:
         echo Hello $name!
   pull_requests_only:
       runs-on: ubuntu-latest
-      if: github.event_name == "pull_request"
       needs: [build]
       steps:
       - name: Run a one-line script
