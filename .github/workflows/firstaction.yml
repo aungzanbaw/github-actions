@@ -13,7 +13,7 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env: 
+    env:  
       name: Aung Zan Baw
     steps: 
     - name: Run a multi-line script
